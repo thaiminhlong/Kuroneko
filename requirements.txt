@@ -1,0 +1,22 @@
+# Manga Downloader - Dependencies
+# Python 3.11+
+
+# GUI
+PySide6>=6.6.0
+
+# Async networking (preferred for plugins)
+aiohttp>=3.9.0
+httpx>=0.26.0
+
+# Sync networking (fallback)
+requests>=2.31.0
+
+# Image processing (optional, for cover thumbnails)
+Pillow>=10.0.0
+
+# Packaging
+pyinstaller>=6.0.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
